@@ -13,6 +13,15 @@ ul {
     margin: 5px ;
 }
 
+a {
+    color: #e5e7eb; 
+    text-decoration: none; 
+} 
+
+a:hover{
+    color:blue;
+} 
+
 .container{
     display: flex;
     justify-content: space-between;
