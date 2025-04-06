@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    height: 100px;
+    width: 120px;
+    border: dotted white;
+    border-radius: 50%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    flex-direction: row;
+    border: solid whitesmoke;
+    box-shadow: inset;
+}
+
+.header {
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+   
+    
+    
+    
+}
+
+li{
+    display: inline;
+    margin: 15px;
+}
