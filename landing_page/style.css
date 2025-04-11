@@ -82,21 +82,46 @@ ul {
     align-items: center;
     flex-direction: column;
     width: 300px;
-}
-
-
-h3 {
-    font-size: 36px;
-    color:#1F2937;
-    font-weight: 900;
     
 }
 
-.first .blok{
+.first{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.first .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first .info article{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.first h3 {
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 900;
+    padding: 50px;
+    
+}
+
+.first img{
     border: solid #3882F6;
     border-radius: 10px;
     width: 100px;
     height: 100px;
+    display: flex;
+    
     
 
 }
@@ -109,15 +134,35 @@ h3 {
     padding: 100px;
     background-color: lightgray;
     font-size: 36px;
+    display: flex;
+    
 }
 
 .quote p{
     font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    
 }
 
 .last {
     background-color: #3882F6;
     color: #E5E7EB;
+    margin: 50px 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.last button{
+   
+    padding: 10px 15px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #E5E7EB;
+
 }
 
 .footer{
